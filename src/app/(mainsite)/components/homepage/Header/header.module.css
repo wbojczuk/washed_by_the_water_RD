@@ -7,6 +7,12 @@
     align-items: center;
 }
 
+.header h4{
+    margin-top: 2vw;
+    font-weight: 500;
+    font-style: italic;
+}
+
 .header h1{
     font-family: var(--secondary-font);
     font-size: 5rem;
@@ -68,6 +74,9 @@
         width: 5vw;
         height: 5vw;
     }
+    .header h4{
+        margin-top: 3vw;
+    }
 }
  
 /* MOBILE STYLES */
@@ -101,5 +110,8 @@
     .socialLink{
         width: 10vw;
         height: 10vw;
+    }
+    .header h4{
+        margin-top: 4vw;
     }
 }

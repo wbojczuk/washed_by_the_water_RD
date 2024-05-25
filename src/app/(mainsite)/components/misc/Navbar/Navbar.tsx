@@ -46,10 +46,6 @@ export default function Navbar() {
       ref: contactRef
     },
     {
-      triggers: ["/reviews"],
-      ref: reviewsRef
-    },
-    {
       triggers: ["/", "/home"],
       ref: homeRef
     }
@@ -169,7 +165,7 @@ export default function Navbar() {
 
       <div className={styles.navContent}>
       <Link href="/" className={styles.logo}>
-        <img ref={logoRef} src="/img/logo.jpg" className={styles.logoImg} width={500} height={250} alt="Logo" />
+        <img ref={logoRef} src="/img/logo.webp" className={styles.logoImg} width={500} height={250} alt="Logo" />
         
       </Link>
 
@@ -205,11 +201,6 @@ export default function Navbar() {
           ref={galleryRef}
           />
 
-          <NavOption
-          title="Reviews"
-          url="/reviews"
-          ref={reviewsRef}
-          />
 
           <NavOption
           title="Contact"
